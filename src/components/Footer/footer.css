@@ -1,0 +1,26 @@
+.footer-main{
+    font-family: "Inter18";
+    font-size: 18px;
+
+    width:100%;
+    padding-top:32px;
+    padding-bottom: 16px;
+    height:36px;
+    line-height: 36px;
+
+    display:flex;
+    justify-content: space-between;
+}
+
+span a{
+    color:black;
+    margin-right:5px;
+}
+span a:hover{
+    color:black;
+}
+
+.footer-links{
+    display:flex;
+    gap:10px;
+}
