@@ -13,9 +13,9 @@ const Footer =()=>(
             <GithubSVG />
             </a>
             </div>
-               <span><a href="mailto:nharrisanalyst@gmail.com">Contact   </a>  &#169;Nathan Harris</span> 
             <div>
-        </div>
+               <span><a href="mailto:nharrisanalyst@gmail.com">Contact   </a>  &#169;Nathan Harris</span> 
+            </div>
 
     </div>
 )
