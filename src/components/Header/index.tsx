@@ -13,7 +13,7 @@ const Header = ({navigation = ""}:HeaderProps)=>{
 
     return(
             <div className='main-header'>
-                <span className='main-name'>Nathan <span className='name-last'>Harris</span></span>
+                <strong><span className='main-name'>Nathan <span className='name-last'>Harris</span></span></strong>
                 <span className='main-links'>
                 <Link className={homeClass} to='/'>Home</Link>
                 <Link className={workClass} to='/work'>Work</Link>
