@@ -13,10 +13,16 @@ a:hover {
 
 body {
   margin: 0;
+  font-family: Inter18;
 }
 
 @font-face{
   font-family: "Inter18";
   src:local("Inter_18pt-Regular"),
   url('./assets/fonts/Inter_18pt-Regular.ttf') 
+}
+
+.main-header{
+  position:fixed;
+
 }

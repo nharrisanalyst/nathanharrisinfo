@@ -1,15 +1,22 @@
 .main-header{
     font-family: "Inter18";
-    font-size: 20px;
+    font-size: 22px;
 
-    width:100%;
+    width:calc(100% - 5.45em);
     padding-top:32px;
     padding-bottom: 16px;
     height:36px;
     line-height: 36px;
+    padding-left: 2em;
+    padding-right:2em;
+   
 
     display:flex;
     justify-content: space-between;
+    color:white;
+    backdrop-filter: blur(16px);
+    background: rgba(255, 255, 255, 0.005);
+    z-index: 10001;
 }
 
 .main-name{
@@ -26,7 +33,7 @@
 }
 
 .main-links a{
-    color:black;
+    color:White;
 }
 
 .activeNow{
