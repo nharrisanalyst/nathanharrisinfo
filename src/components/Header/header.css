@@ -24,7 +24,7 @@
 }
 
 .name-last{
-    color:#0988e8;
+    color:#0988e8 !important;
 }
 
 .main-links{
@@ -36,7 +36,15 @@
     color:White;
 }
 
+.black .main-links a{
+    color:black !important;
+}
+
 .activeNow{
     text-decoration: underline;
     text-decoration-color:#0988e8;
+}
+
+.black{
+    color:black !important;
 }

@@ -1,0 +1,72 @@
+.task{
+    width:100%;
+    max-width:1008px;
+    
+}
+
+.task-title-title{
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    line-height: 1.3333333;
+    text-align: left;
+}
+
+.task-img-1-discription{
+    display:grid;
+    grid-gap:25px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    height:575px;
+    margin-bottom:25px
+}
+
+.task-description-cont{
+    grid-column: 1/5;
+    grid-row: 1/13;
+
+    text-align: left;
+    display:grid;
+
+    font-size:1.05em;
+    line-height: 1.55rem;
+    font-weight: 100;
+    
+}
+
+.task-img-1{
+    grid-column: 5/13;
+    grid-row:1/9;
+    width: 100%;
+    height:100%;
+    
+}
+
+.my-role-title{
+    font-weight: 600;
+    font-size: 1.25em;
+    margin-top: 1.6em;
+    margin-bottom: .6em;
+    line-height: 1.6;
+}
+
+.task-title{
+    font-weight: 600;
+    font-size: 1.55em;
+    margin-bottom: .6em;
+    line-height: 1.6;
+}
+
+.task-main-container{
+    width:100%;
+}
+
+.task-img-2{
+    width:100%;
+}
+
+.task-par1{
+    margin-bottom:25px;
+    margin-top:25px;
+}
