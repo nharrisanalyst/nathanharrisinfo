@@ -28,7 +28,8 @@ const Card = ({imageSrc,linkTo, name}:CardProps) =>{
         setOpacity(newOpacity);
 
     },[showBanner])
-    let classBanner = opacity ===0?"card-banner":"card-banner banner-appear";
+    let classBanner = opacity ===0?"card-banner banner-gone":"card-banner banner-appear";
+    let imageBanner = opacity ===0?"image-expand":"image-appear";
     return(
         <div className='card-container' 
              onMouseEnter={() => handleOnHover()}
@@ -36,8 +37,9 @@ const Card = ({imageSrc,linkTo, name}:CardProps) =>{
         >
             <Link to={link}>
             <AspectRatio ratio={24/12}>
-                <img src={imageSrc} />
+                <img className={imageBanner} src={imageSrc} />
             </AspectRatio>
+            
             </Link> 
             <div className={classBanner}>{name.replace("_"," ")}</div>
         </div>
