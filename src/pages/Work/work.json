@@ -1,0 +1,26 @@
+{
+    "task":[
+        {
+            "name":"JPMC_Savings",
+            "data":{
+                "title": "Visualizations and Web App to understand savings",
+                "mainText":{
+                    "par1":"Senior Developer and Data Visualization consultant, developing this savings explorer with d3.js",
+                    "par2": "End to end  development and consultant, from data wrangling to data visulaziton design and development to full web app."
+                },
+                "myRole":["Advised on Design", "Engineered D3.js Visualizations", "Engineered Full Application", "Wrangled Data"]
+            }
+        },
+            {
+                "name":"JPMC_Savings",
+                "data":{
+                    "title": "Visualizations and Web App to understand savings",
+                    "mainText":{
+                        "par1":"Senior Developer and Data Visualization consultant, developing this savings explorer with d3.js",
+                        "par2": "End to end  development and consultant, from data wrangling to data visulaziton design and development to full web app."
+                    },
+                    "myRole":["Advised on Design", "Engineered D3.js Visualizations", "Engineered Full Application", "Wrangled Data"]
+                }
+          }
+    ]
+}
