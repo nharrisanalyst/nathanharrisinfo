@@ -1,3 +1,4 @@
+import { AspectRatio } from "@radix-ui/react-aspect-ratio";
 import './task.css';
 
 type mainText ={
@@ -20,13 +21,17 @@ type TaskProps ={
 
 
 const Task =({data,name}:TaskProps)=>{
-    const img_1 = `/images/work/${name}/1.png`;
-    const img_2 = `/images/work/${name}/2.png`;
+    const img_1 = `/images/work/${name}/1.webp`;
+    const img_2 = `/images/work/${name}/2.webp`;
     return(
         <div className='task'>
-            <div className='task-title-title'>{name.replace("_", " ")}</div>
+            <div className='task-title-title'>{name.replaceAll("_", " ")}</div>
             <div className ='task-img-1-discription'> 
-                    <img  className='task-img-1' src={img_1} />
+                    <div className='task-img-1'>
+                    <AspectRatio ratio={12/8}>
+                        <img   src={img_1} />
+                    </AspectRatio >
+                    </div>
                     <div className="task-description-cont" >
                         <div className='task-main-container'>
                             <div className='task-title'>{data.title}</div>

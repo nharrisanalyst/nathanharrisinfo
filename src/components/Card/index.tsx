@@ -36,7 +36,7 @@ const Card = ({imageSrc,linkTo, name}:CardProps) =>{
              onMouseLeave={() => handHoverOut()}    
         >
             <Link to={link}>
-            <AspectRatio ratio={24/12}>
+            <AspectRatio ratio={22/12}>
                 <img className={imageBanner} src={imageSrc} />
             </AspectRatio>
             
