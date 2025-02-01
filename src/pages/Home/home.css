@@ -26,3 +26,11 @@
 .sub-text-home{
     font-size:1.5em;
 }
+
+.explorer-cont{
+    width:100%;
+    margin-top: 64px;
+    margin-bottom: 128px;
+    display:flex;
+    justify-content: center;
+}

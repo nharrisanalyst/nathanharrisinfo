@@ -1,4 +1,6 @@
 import { Link } from 'react-router-dom';
+import Explorer from '../../components/Explorer';
+import explorerData from '../../components/Explorer/explorer.json';
 
 import './home.css';
 
@@ -21,7 +23,9 @@ const Home = ()=>(
                 
             </div>
         </div>
-
+          <div className = 'explorer-cont'>
+            <Explorer {...explorerData} />
+          </div>
     </div>
 )
 

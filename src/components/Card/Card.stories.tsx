@@ -28,9 +28,9 @@ export default meta;
 type Story = StoryObj<typeof meta>;
 
 export const Primary: Story = {
-  args: {
-    imageSrc:"/images/work/JPMC_Savings/2.png",
-    linkTo:'/work/JPMC_Savings',
-    name:"JPMC_Savings",
-  },
+  args:  {
+    "imageSrc":"/images/work/JPMC_Savings/2.webp",
+    "linkTo":"/work/JPMC_Savings",
+    "name":"JPMC_Savings"
+},
 };

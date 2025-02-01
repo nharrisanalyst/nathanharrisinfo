@@ -1,6 +1,5 @@
 import {useState, useEffect} from 'react';
 import { Link } from 'react-router-dom';
-import { AspectRatio } from "@radix-ui/react-aspect-ratio";
 import './card.css';
 
 
@@ -36,10 +35,7 @@ const Card = ({imageSrc,linkTo, name}:CardProps) =>{
              onMouseLeave={() => handHoverOut()}    
         >
             <Link to={link}>
-            <AspectRatio ratio={22/12}>
                 <img className={imageBanner} src={imageSrc} />
-            </AspectRatio>
-            
             </Link> 
             <div className={classBanner}>{name.replace("_"," ")}</div>
         </div>
