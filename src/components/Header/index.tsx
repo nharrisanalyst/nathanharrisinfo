@@ -20,7 +20,7 @@ const Header = ({navigation = ""}:HeaderProps)=>{
                 <Link className={homeClass} to='/'>Home</Link>
                 <Link className={workClass} to='/work'>Work</Link>
                 <Link to="https://docs.google.com/document/d/1BE_2vCPxvHcG45s7CJixCnfJkG5uFMPkpvjyfU24xo0/edit?usp=sharing">Resume</Link>
-                <Link className={contactClass} to='/Contact'>Contact</Link>
+                <a className={contactClass} href='mailto:nharrisanalyst@gmail.com'>Contact</a>
 
                 </span>
             </div>

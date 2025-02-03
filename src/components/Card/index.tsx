@@ -12,7 +12,7 @@ export type CardProps ={
 const Card = ({imageSrc,linkTo, name}:CardProps) =>{
     const [showBanner, setShowBanner] = useState<boolean>(false);
     const [opacity, setOpacity] = useState<number>(0);
-    const link = `/work/${linkTo}`;
+    const link = linkTo;
     const handleOnHover=()=>{
         setShowBanner(true);
     }
