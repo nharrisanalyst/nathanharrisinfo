@@ -19,6 +19,7 @@ const Home = ()=>(
                   <div className='sub-text-home'>
                     <Link to='/work'>Work</Link> or <Link to='https://docs.google.com/document/d/1BE_2vCPxvHcG45s7CJixCnfJkG5uFMPkpvjyfU24xo0/edit?usp=sharing'>Resume</Link>
                     </div>
+                    <div className='bouncing-arrow'>&dArr;</div>
                 </div>
                 
             </div>
