@@ -1,0 +1,89 @@
+.card-container {
+    height:175px;
+    width:350px;
+}
+
+.card-container img{
+    height:100%;
+    object-position: center;
+    width:100%;
+    transition-duration: .3s;
+    filter: brightness(95%);
+      
+    
+}
+
+.card-container{
+   background-color: lightgrey;
+}
+
+.card-banner{
+    position:relative;
+    top:0px;
+    background-color: #0988e8;
+    height:0px;
+    line-height: 25px;
+    padding-left: 5px;
+    opacity:0;
+    color:white;
+}
+
+.card-banner:hover{
+    cursor:pointer;
+}
+
+@keyframes smooth-appear {
+    to{
+      top: -25px;
+      opacity:0.75;
+      height:25px;
+    }
+  }
+
+  
+
+  @keyframes image-shrink {
+    to{
+      width:90%;
+      transform: translate(0, 0);
+    }
+  }
+  @keyframes image-expand {
+    0% {
+        width:90%;
+      transform: translate(0, 0);
+      }
+      100% {
+        width:100%;
+      transform: translate(0%, 0);
+      }
+  }
+
+  @keyframes banner-gone {
+    0% {
+      top: -25px;
+      opacity:0.75;
+      height:25px;
+      }
+      100% {
+        top:0px;
+        opacity:0.0;
+        height:0px;
+      }
+  }
+
+  .image-appear{
+    animation: image-shrink 0.3s ease forwards;
+  }
+
+  .image-expand{
+    animation: image-expand 0.3s ease forwards;
+  }
+
+  .banner-gone{
+    animation: banner-gone 0.3s ease forwards;
+  }
+
+  .banner-appear{
+    animation: smooth-appear 0.3s ease forwards;
+  }

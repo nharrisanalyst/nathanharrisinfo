@@ -1,16 +1,27 @@
 {
     "task":[
         {
-            "name":"JPMC_Savings",
+            "name":"Signal_by_Plume",
             "data":{
-                "title": "Visualizations and Web App to understand savings",
+                "title": "Machine Learning and Data Visualization to identify problems before they happen",
                 "mainText":{
-                    "par1":"Senior Developer and Data Visualization consultant, developing this savings explorer with d3.js",
-                    "par2": "End to end  development and consultant, from data wrangling to data visulaziton design and development to full web app."
+                    "par1":"Using Machine Learning and Data Visualization Dashboards to help Plume's ISP Partners pinpoint troubles before they become a problem.",
+                    "par2": "I worked with all stakeholders in leading UI development in the Signal project."
                 },
-                "myRole":["Advised on Design", "Engineered D3.js Visualizations", "Engineered Full Application", "Wrangled Data"]
+                "myRole":["Lead Development", "Engineered D3.js Visualizations", "ReactJS Development"]
             }
         },
+        {
+            "name":"Messari",
+            "data":{
+                "title": "Automated Data Visualization",
+                "mainText":{
+                    "par1":"Helped Messari take their visualization production process from half a day to a few minutes.",
+                    "par2": ""
+                },
+                "myRole":["Advised on Data Visualization", "Engineered Visualizations", "Engineered Nextjs/React", "Back End Development"]
+            }
+      },
             {
                 "name":"JPMC_Savings",
                 "data":{

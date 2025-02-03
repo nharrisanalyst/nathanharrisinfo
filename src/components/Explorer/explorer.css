@@ -1,0 +1,10 @@
+.title-explorer{
+    text-align: center;
+    font-size: 1.75em;
+    margin-bottom: 25px;
+}
+
+.explorer-cards{
+    display:flex;
+    gap:5px
+}

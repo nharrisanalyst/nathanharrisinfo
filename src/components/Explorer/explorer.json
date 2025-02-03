@@ -1,0 +1,24 @@
+{
+    "cards":[
+        {
+            "imageSrc":"/images/work/Signal_by_Plume/2.webp",
+            "linkTo":"/work/Signal_by_Plume",
+            "name":"Signal_by_Plume"
+        },
+        {
+            "imageSrc":"/images/work/Messari/1.webp",
+            "linkTo":"/work/Messari",
+            "name":"Messari"
+        },
+        {
+            "imageSrc":"/images/work/JPMC_Savings/2.webp",
+            "linkTo":"/work/JPMC_Savings",
+            "name":"JPMC_Savings"
+        },
+        {
+            "imageSrc":"/images/work/JPMC_Savings/2.webp",
+            "linkTo":"/work/JPMC_Savings",
+            "name":"JPMC_Savings"
+        }
+    ]
+}

@@ -26,3 +26,30 @@
 .sub-text-home{
     font-size:1.5em;
 }
+
+.explorer-cont{
+    width:100%;
+    margin-top: 64px;
+    margin-bottom: 128px;
+    display:flex;
+    justify-content: center;
+}
+
+.bouncing-arrow{
+    font-size: 32px;
+    animation: bounce 2s infinite;
+    filter: brightness(50%);
+    margin-top:342px;
+}
+  
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-10px);
+    }
+    60% {
+      transform: translateY(0px);
+    }
+  }
