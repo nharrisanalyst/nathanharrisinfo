@@ -7,7 +7,7 @@ import './home.css';
 const Home = ()=>(
     <div className='home'>
         <div className='main-home-image'>
-            <img src="/images/big_sur_big.jpg" />
+            <img height="1099.2" width="1648" src="/images/big_sur_big.jpg" />
             <div className='image-text-cont' >
                 <div className='main-text-home'>
                   <div className='main-text-home-title'>
@@ -19,9 +19,9 @@ const Home = ()=>(
                   <div className='sub-text-home'>
                     <Link to='/work'>Work</Link> or <Link to='https://docs.google.com/document/d/1BE_2vCPxvHcG45s7CJixCnfJkG5uFMPkpvjyfU24xo0/edit?usp=sharing'>Resume</Link>
                     </div>
-                    <div className='bouncing-arrow'>&dArr;</div>
+                    
                 </div>
-                
+                <div className='bouncing-arrow'>&dArr;</div>
             </div>
         </div>
           <div className = 'explorer-cont'>

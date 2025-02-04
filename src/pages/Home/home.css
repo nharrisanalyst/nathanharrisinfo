@@ -2,14 +2,23 @@
  width:100%;
  background-color: black;
  filter: brightness(50%);
+ animation: fadeIn 0.5s ease-in;
 }
 
 .main-text-home{
   position: absolute;
-  top: 50%;
+  top: calc(50% - 48px);
   left: 50%;
   transform: translate(-50%, -50%);
   color:white;
+  animation: fadeIn 1.5s ease-in;
+  text-align: center;
+  
+}
+
+.main-home-image a{
+  color: #0988e8;
+  
 }
 
 .main-text-home-title{
@@ -37,15 +46,31 @@
 
 .bouncing-arrow{
     font-size: 32px;
-    animation: bounce 2s infinite;
+    animation: bounce 2s infinite, fadeIn 1.5s ease-in;
     filter: brightness(50%);
     margin-top:342px;
+  color:white;
+  position: absolute;
+  top: calc(50% - 48px);
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
   
   @keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
+    0% {
+      transform: translateY(0);
+
+    }
+
+    100% {
       transform: translateY(0);
     }
+
+    20%, 50%, 80% {
+      transform: translateY(0);
+    }
+    
     40% {
       transform: translateY(-10px);
     }
