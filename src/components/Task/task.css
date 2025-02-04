@@ -3,6 +3,7 @@
     max-width:1008px;
     padding-bottom: 48px;
     border-bottom: 1px solid lightgrey;
+    animation: fadeIn 1s ease-in;
     
 }
 

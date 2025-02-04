@@ -17,6 +17,7 @@
     backdrop-filter: blur(16px);
     background: rgba(255, 255, 255, 0.005);
     z-index: 10001;
+    animation: fadeIn 1.5s ease-in;
 }
 
 .main-name{
@@ -47,4 +48,23 @@
 
 .black{
     color:black !important;
+}
+
+@keyframes fallIn {
+    0% { 
+        top:-20px;; 
+        opacity: 0;
+    
+    
+    }
+    100% { 
+        top:0px;;  
+        opacity: 1;
+    }
+  }
+
+.name-last{
+    animation: fallIn 1.5s;
+    position:relative;
+   
 }
