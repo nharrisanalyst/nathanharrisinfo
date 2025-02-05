@@ -5,6 +5,8 @@ import type { Meta, StoryObj } from '@storybook/react';
 import Footer from './';
 
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories#default-export
+
+// @ts-ignore
 const meta = {
   title: 'Footer',
   component: Footer,
