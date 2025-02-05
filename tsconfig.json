@@ -1,9 +1,12 @@
-{
+{ 
+  "compilerOptions": {
+  "composite": true,
+  "disableSourceOfProjectReferenceRedirect": true
+},
   "files": ["src/custom.d.ts"],
+  "include": [],
   "references": [
-    // @ts-ignore
-    { "path": "./tsconfig.app.json" },
-    // @ts-ignore
-    { "path": "./tsconfig.node.json" }
+    { "path": "./tsconfig.app.json"},
+    { "path": "./tsconfig.node.json"},
   ]
 }
