@@ -19,7 +19,6 @@ const meta = {
   },
   tags: ['autodocs'],
   argTypes: {
-    backgroundColor: { control: 'color' },
   },
   args:{},
 } satisfies Meta<typeof task>;
