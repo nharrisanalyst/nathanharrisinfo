@@ -1,4 +1,5 @@
 import Task from '../../components/Task';
+// @ts-ignore
 import data from './work.json';
 
 import'./work.css';

@@ -1,5 +1,6 @@
 import Task from './';
 import { useParams } from 'react-router-dom'; 
+// @ts-ignore
 import data from '../../pages/Work/work.json';
 
 import './dynamicTask.css';

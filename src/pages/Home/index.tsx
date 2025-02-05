@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import Explorer from '../../components/Explorer';
+// @ts-ignore
 import explorerData from '../../components/Explorer/explorer.json';
 
 import './home.css';

@@ -1,7 +1,9 @@
 {
   "files": ["src/custom.d.ts"],
   "references": [
+    // @ts-ignore
     { "path": "./tsconfig.app.json" },
+    // @ts-ignore
     { "path": "./tsconfig.node.json" }
   ]
 }
