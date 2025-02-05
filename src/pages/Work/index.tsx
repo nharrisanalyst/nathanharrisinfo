@@ -7,7 +7,7 @@ import'./work.css';
 const Work =()=>{
     return(
         <div className='work'>
-        {data.task.map((t)=>(<Task {...t} />))}
+        {data.task.map((t:any)=>(<Task {...t} />))}
         </div>
     )
   }

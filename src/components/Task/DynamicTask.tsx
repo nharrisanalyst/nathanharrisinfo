@@ -6,7 +6,7 @@ import './dynamicTask.css';
 
 const DynamicTask =() =>{
     const { taskName } = useParams();
-    const taskData = data.task.filter(d=>d.name === taskName);
+    const taskData = data.task.filter((d:any)=>d.name === taskName);
     return (
         <div className='work'>
             <Task {...taskData[0]} />
