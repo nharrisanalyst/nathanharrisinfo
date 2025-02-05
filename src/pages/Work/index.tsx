@@ -1,4 +1,5 @@
 import Task from '../../components/Task';
+// @ts-ignore
 import data from './work.json';
 
 import'./work.css';
@@ -7,7 +8,7 @@ import'./work.css';
 const Work =()=>{
     return(
         <div className='work'>
-        {data.task.map((t)=>(<Task {...t} />))}
+        {data.task.map((t:any)=>(<Task {...t} />))}
         </div>
     )
   }

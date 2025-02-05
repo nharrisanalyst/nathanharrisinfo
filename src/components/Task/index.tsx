@@ -25,7 +25,10 @@ const Task =({data,name}:TaskProps)=>{
     const img_2 = `/images/work/${name}/2.webp`;
     return(
         <div className='task'>
-            <div className='task-title-title'>{name.replaceAll("_", " ")}</div>
+            <div className='task-title-title'>{
+            // @ts-ignore
+            name.replaceAll("_", " ")
+            }</div>
             <div className ='task-img-1-discription'> 
                     <div className='task-img-1'>
                     <AspectRatio ratio={12/8}>

@@ -19,10 +19,9 @@ const meta = {
   },
   tags: ['autodocs'],
   argTypes: {
-    backgroundColor: { control: 'color' },
   },
   args:{},
-} satisfies Meta<typeof task>;
+} satisfies Meta<typeof Task>;
 
 export default meta;
 type Story = StoryObj<typeof meta>;
