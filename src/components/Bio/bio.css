@@ -1,0 +1,50 @@
+.bio-main{
+    width:calc(100% - 8em);
+    padding-left:4em;
+    padding-right:4em;
+}
+
+.bio-title{
+    font-size: 1.75em;
+    text-align: center;
+    margin-top:64px;
+    margin-bottom:25px;
+    font-weight: bold;
+    
+}
+
+.skills-cont{
+    display: flex;
+    gap:5px;
+}
+
+.skills-title{
+    font-weight: bold;
+    margin-top:10px;
+    margin-bottom:5px;
+    text-align: left;
+}
+
+.bio-intro{
+    font-weight: bold;
+    font-size: 1.75em;
+    text-align:center;
+    margin-top:25px;
+    margin-bottom:25px;
+}
+
+.bio-bio{
+    font-size: 1.25em;
+    margin-top:25px;
+    margin-bottom:25px;
+    text-align:center;
+
+}
+
+.skills-img-me{
+    float:right;
+    height: 250px;
+    padding-left: 25px;
+    border-radius: 25%;
+    
+}

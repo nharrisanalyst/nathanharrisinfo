@@ -1,7 +1,9 @@
 import { Link } from 'react-router-dom';
 import Explorer from '../../components/Explorer';
+import Bio from '../../components/Bio';
 // @ts-ignore
 import explorerData from '../../components/Explorer/explorer.json';
+import bioData from '../../components/Bio/bio.json';
 
 import './home.css';
 
@@ -27,6 +29,9 @@ const Home = ()=>(
         </div>
           <div className = 'explorer-cont'>
             <Explorer {...explorerData} />
+          </div>
+          <div className = 'bio-cont'>
+            <Bio {...bioData.bio_data} />
           </div>
     </div>
 )
