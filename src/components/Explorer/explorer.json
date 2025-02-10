@@ -6,14 +6,14 @@
             "name":"Signal_by_Plume"
         },
         {
+            "imageSrc":"/images/work/Data_Visualization/1.webp",
+            "linkTo":"/work/Data_Visualization",
+            "name":"Data_Visualization"
+        },
+        {
             "imageSrc":"/images/work/Messari/1.webp",
             "linkTo":"/work/Messari",
             "name":"Messari"
-        },
-        {
-            "imageSrc":"/images/work/JPMC_Savings/2.webp",
-            "linkTo":"/work/JPMC_Savings",
-            "name":"JPMC_Savings"
         },
         {
             "imageSrc":"/images/work/JPMC_Savings/2.webp",

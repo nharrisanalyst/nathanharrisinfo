@@ -37,7 +37,7 @@ const Card = ({imageSrc,linkTo, name}:CardProps) =>{
             <Link to={link}>
                 <img className={imageBanner} src={imageSrc} />
             </Link> 
-            <div className={classBanner}>{name.replace("_"," ")}</div>
+            <div className={classBanner}>{name.replaceAll("_"," ")}</div>
         </div>
     )
 }
