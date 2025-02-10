@@ -12,6 +12,17 @@
             }
         },
         {
+            "name":"Data_Visualization",
+            "data":{
+                "title": "Bringing Data and Insights to life through Data Visualization",
+                "mainText":{
+                    "par1":"Collecting and organinzing data, exploritory analysis and visualization design to bring out actionable insight.",
+                    "par2": "I work through every step of the data visualization process. I lead and help organizationts organize databases, wrangle data, design visualizations and build interactive data visualizations. To bring insight into data that shows unique insights and actionable analysis."
+                },
+                "myRole":["Lead Development", "Engineered D3.js Visualizations", "Wrangled Data"]
+            }
+        },
+        {
             "name":"Messari",
             "data":{
                 "title": "Automated Data Visualization",
