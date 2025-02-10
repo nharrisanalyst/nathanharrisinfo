@@ -22,6 +22,7 @@
 
 .main-name{
     font-weight: 700;
+    color:white;
 }
 
 .name-last{
@@ -46,7 +47,7 @@
     text-decoration-color:#0988e8;
 }
 
-.black{
+.black .main-name{
     color:black !important;
 }
 

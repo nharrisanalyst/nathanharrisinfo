@@ -15,7 +15,7 @@ const Header = ({navigation = ""}:HeaderProps)=>{
 
     return(
             <div className={`main-header ${black}`}>
-                <strong><span className='main-name '>Nathan <span className='name-last'>Harris</span></span></strong>
+                <strong><Link to='/'><span className='main-name '>Nathan <span className='name-last'>Harris</span></span></Link></strong>
                 <span className={`main-links ${black}`}>
                 <Link className={homeClass} to='/'>Home</Link>
                 <Link className={workClass} to='/work'>Work</Link>
