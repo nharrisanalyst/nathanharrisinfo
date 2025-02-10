@@ -25,11 +25,14 @@ const Bio =({intro, bio,skills,image_src}:bioProps)=>{
     return(
         <div className='bio-main'>
             <div className='bio-title'>ME</div>
-            <div>
-            <img src={image_src} className='skills-img-me' />
-            <div className='bio-intro'>{intro}</div>
-            </div>
-            <div className='bio-bio'>{bio}</div>
+                <div className='bio-words-img'>
+                    <img src={image_src} className='skills-img-me' />
+                    <div className='bio-words'>
+                        <div className='bio-intro'>{intro}</div>
+                        <div className='bio-bio'>{bio}</div>
+                    </div>
+                </div>
+            
             
             <div className='skills'>
                 <div className='skills-section'>
