@@ -90,4 +90,8 @@
       font-size:1.0em;
       margin-bottom:20px;
   }
+  .main-home-image img{
+    height:100vh;
+  }
+
   }
