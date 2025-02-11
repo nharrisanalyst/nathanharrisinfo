@@ -20,6 +20,7 @@
 .skills-cont{
     display: flex;
     gap:5px;
+    flex-wrap: wrap;
 }
 
 .skills-title{
@@ -51,4 +52,33 @@
     padding-left: 25px;
     border-radius: 25%;
     
+}
+
+@media (max-width: 600px) {
+    .bio-main{
+        width:calc(100vw - 4em);
+        padding-left:2em;
+        padding-right:2em;
+    }
+
+    .bio-title{
+        font-size: 1.35em;
+        text-align: center;
+        margin-top:0px;
+        margin-bottom: 25px;
+        font-weight: bold;
+        
+    }
+    .skills-img-me{
+        float:right;
+        height: 150px;
+        padding-left: 10px;
+        border-radius: 25%;
+        
+    }
+
+    .skills-cont{
+        flex-wrap: wrap;
+    }
+
 }

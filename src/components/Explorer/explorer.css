@@ -13,7 +13,8 @@
 @media (max-width: 600px) {
 
     .explorer-cont{
-        display: block;
+    
+        margin-bottom: 48px !important;
     }
 
     .title-explorer{
