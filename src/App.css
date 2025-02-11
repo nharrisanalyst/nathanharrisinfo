@@ -42,4 +42,11 @@
 
 
 
+@media (max-width: 600px) {
+  #root {
+    margin-left: 0em;
+    margin-right:0em;
+    text-align: null;
+  }
 
+}
